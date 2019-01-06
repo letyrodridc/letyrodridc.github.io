@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 title: Lorem Ipsum - Web Developer
 description: "A blog about lorem ipsum ..."
@@ -68,3 +69,6 @@ projects:
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
+=======
+theme: jekyll-theme-midnight
+>>>>>>> 5325f3457f4fffc4ae9ccdb4caeb8727e06bf46f
