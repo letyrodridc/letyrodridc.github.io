@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Leticia Lorena Rodriguez</title>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="letyrodri.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<script src="letyrodri.js"></script>
+
+</head>
+<body class="letyrodri-c4 w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse letyrodri-c5 w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="lety.png" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Leticia Lorena Rodriguez</b></h4>
+    <p class="w3-text-grey">Professor in Artificial Intelligence</p>
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://www.linkedin.com/in/letyrodri" target="_blank"  alt="LinkedIn"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <a href="https://www.github.com/letyrodridc" target="_blank"  alt="Github"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a href="https://medium.com/@letyrodri_en" target="_blank"><i class="fa fa-medium w3-hover-opacity"></i></a>
+    <a href="https://www.twitter.com/letyrodri" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="lety.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Curso de Inteligencia Artificial - AI</b></h1>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+  
+    <a href="https://drive.google.com/drive/folders/13boW7oCFFFmXimJYQMM7Vq5AlvNud7P7?usp=sharing" target="_blank">
+    <div class="w3-half w3-container w3-margin-bottom">
+      <img src="http://letyrodri.com/img/cursoAI/ai-thinking.jpg" alt="" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container letyrodri-c5">
+      
+        <p><b><h3>Día 1: Introducción a la Inteligencia Artificial </h3></b></p>
+        <p>La idea de esta clase es que puedas comprender las diferentes áreas de la Inteligencia Artificial y conocer qué tipo de problemas resuelve. Vamos a ver conceptos como Machine Learning, Deep Learning y Reinforcement Learning.
+        Se va a profundizar en Aprendizaje por Refuerzos, resolviendo alguno de los problemas clásicos del área. Conceptos como Markov Decision Process, Función acción-valor, Algoritmo Monte Carlo y Q-Learning. 
+      </p>
+      </div>
+    </div>
+  </a>
+
+     <a href="" target="_blank">
+    <div class="w3-half w3-container w3-margin-bottom">
+  
+      <div class="w3-container letyrodri-c5">
+        <p><b>Día 2:</b></p>
+        <p> 9 de Mayo</p>
+      </div>
+    </div>
+  </a>
+
+    
+  </div>
+
+<!-- Row 2 -->
+ <div class="w3-row-padding">
+  
+    <a href="https://drive.google.com/open?id=1n7oGPCQW4fE3328XmlCypmRT8a2gvUKp" target="_blank">
+    <div class="w3-half w3-container w3-margin-bottom">
+      <div class="w3-container letyrodri-c5">
+      
+        <p><b>Día 3: </b></p>
+        <p>16 de Mayo
+      </p>
+      </div>
+    </div>
+  </a>
+
+     <a href="" target="_blank">
+    <div class="w3-half w3-container w3-margin-bottom">
+      <div class="w3-container letyrodri-c5">
+        <p><b>Día 4:</b></p>
+        <p> 23 de Mayo</p>
+      </div>
+    </div>
+  </a>
+
+    
+  </div>
+
+
+
+
+
+    <hr>
+    
+  
+  
+  
+  
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+start_fixed(0);
+</script>
+
+</body>
+</html>

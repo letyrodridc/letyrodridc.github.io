@@ -1,0 +1,21 @@
+/* Darker - bottom line */
+.letyrodri-c1,.letyrodri-hover-c1:hover{}
+.letyrodri-c2,.letyrodri-hover-c2:hover{}
+.letyrodri-c3,.letyrodri-hover-c3:hover{}
+/* Lighter - page background */
+.letyrodri-c4,.letyrodri-hover-c1:hover{}
+/* Light - side bar and text boxes */
+.letyrodri-c5,.letyrodri-hover-c4:hover{}
+
+/*
+1. w3-dark-grey
+2. w3-gray
+3. w3-black
+4. w3-white
+5. w3-light-grey
+
+h2{font-size:20px;}
+h3{font-size:12px;}
+h4{font-size:20px;}
+h5{font-size:25px;}
+*/
