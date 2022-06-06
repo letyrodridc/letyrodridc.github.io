@@ -7,6 +7,8 @@
 /* Light - side bar and text boxes */
 .letyrodri-c5,.letyrodri-hover-c4:hover{}
 
+.letyrodri-box-tag { /*width:30%; */
+	 font-weight: bold;  border-top-right-radius: 10px; border-top-left-radius: 10px; text-align: center; }
 /*
 1. w3-dark-grey
 2. w3-gray

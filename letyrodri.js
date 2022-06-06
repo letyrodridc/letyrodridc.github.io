@@ -17,19 +17,29 @@ var palette2 = [
 
 var palette3 = [
 ["#0D1321","white"],
-["#9E1030","white"],
-["#DAE6A2","black"],
-["#C5BCBA","black"],
-["#FFEDDF","black"]
+["#9E1030","white"], // button
+["#DAE6A2","black"], // other tags
+["#C5BCBA","black"], // background
+["#FFEDDF","black"]  // text blocks
 ]
 
 var palette4 = [
-["black","white"],
-["#616161","white"],
-["#757575","black"],
-["white","black"],
-["#f1f1f1","black"]
+["#b0aac0","black"],
+["#622569","white"],
+["#5b9aa0","black"], 
+["#b8a9c9","black"],
+["#d6d4e0","black"],
 ]
+
+
+
+
+
+
+
+
+
+
 
 var palette5 = [
 ["#604D53","white"],
