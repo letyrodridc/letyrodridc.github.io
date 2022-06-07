@@ -24,11 +24,11 @@ var palette3 = [
 ]
 
 var palette4 = [
-["#b0aac0","black"],
+["#0cca98","black"],
 ["#622569","white"],
 ["#5b9aa0","black"], 
 ["#b8a9c9","black"],
-["#d6d4e0","black"],
+["#d6d4e0","black"]
 ]
 
 
